@@ -26,6 +26,8 @@ const Signup = () => {
             setLoading("")
 
         } catch (error) {
+            setError(error.message)
+            setLoading("")
 
         }
 
